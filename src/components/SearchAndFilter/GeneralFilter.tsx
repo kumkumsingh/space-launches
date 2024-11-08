@@ -12,7 +12,7 @@ const GeneralFilter = () => {
         
     const handleFilter = useCallback((year: number) => {
         dispatch({ type: LaunchActionTypes.FILTER_LAUNCHES, payload: year });
-    
+    console.log('commit test')
     }, [dispatch]);
 
     const uniqueYears = useMemo(() => {
