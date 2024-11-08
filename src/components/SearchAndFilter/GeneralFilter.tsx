@@ -12,6 +12,7 @@ const GeneralFilter = () => {
         
     const handleFilter = useCallback((year: number) => {
         dispatch({ type: LaunchActionTypes.FILTER_LAUNCHES, payload: year });
+    
     }, [dispatch]);
 
     const uniqueYears = useMemo(() => {
