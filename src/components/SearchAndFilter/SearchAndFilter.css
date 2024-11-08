@@ -1,0 +1,26 @@
+
+.search-input {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.filter-button {
+    border-radius: 8px;
+    border: none; 
+    padding: 0 12px; 
+    height: 40px; 
+    cursor: pointer;
+    background-color: #f5f5f5; 
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+}
+
+.filter-button:hover {
+    background-color: #e6e6e6; 
+}
+
+.filter-row-selectable {
+    width : 100%;
+    cursor: pointer;
+}

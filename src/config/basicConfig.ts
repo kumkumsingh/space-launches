@@ -1,0 +1,1 @@
+export const launchesUrl = "https://api.spacexdata.com/v4/launches";

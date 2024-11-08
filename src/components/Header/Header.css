@@ -1,0 +1,37 @@
+
+.header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.menu {
+    line-height: 64px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 344px) {
+    .title {
+        font-size: 0.5rem;
+    }
+}
